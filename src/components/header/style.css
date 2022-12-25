@@ -1,0 +1,79 @@
+
+.header{
+    width:100%;
+    background-color: black;
+    padding: 2rem 0;
+    position:sticky;
+    top: 0;
+    overflow-x: hidden;
+    z-index: 1000;
+}
+.header nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(182, 171, 171);
+}
+.left-nav{
+    display: flex;
+    gap:6rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-icon{
+    color: white;
+}
+.left-nav h1{
+    font-size: 3.2rem;
+    position: relative;
+    color:rgb(25, 118, 210);
+   
+}
+.left-nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+.left-nav ul li a:hover{
+    border-bottom: 0.3rem solid grey;
+    
+}
+.left-nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+.left-nav .logo .logo-icon{
+    font-size: 6rem;
+}
+.right-nav{
+    position: relative;
+    padding: 1rem;
+}
+.right-nav input{
+    padding: 1.5rem 2rem;
+    width: 40rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    outline: none;
+}
+.right-nav .icon{
+   position: absolute;
+   right: 2rem;
+   bottom:25%;
+   font-size: 3.5rem;
+   /* background-color: aqua; */
+}
+

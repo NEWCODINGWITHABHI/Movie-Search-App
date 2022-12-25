@@ -1,0 +1,68 @@
+.card-wrapper{
+    padding: 1rem  ;
+    /* background-color: rgb(59, 146, 187); */
+    border-radius: 1rem;
+}
+.card-wrapper:hover{
+    background-color: white;
+    opacity: 0.7;
+    transform: scale(1.1);
+    transition: 0.33s all ease-in-out;
+    
+}
+.image-banner{
+    position: relative;
+    width: 30rem;
+}
+.image-banner img{
+    border-radius: 1rem;
+    height: 100%;
+  
+}
+
+  
+
+.image-banner .type-lan{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    font-size: 2rem;
+    background-color: rgb(59, 55, 55);
+    padding: 0.5rem 2rem;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+.image-banner .type-lan b{
+    margin-left: 1rem;
+}
+.image-banner .circle-rate{
+    position:absolute;
+    top:-0.5rem;
+    right:-1.2rem;
+    
+}
+.image-banner .circle-rate .rating-icon{
+    font-size: 3.9rem ;
+   
+    color: greenyellow;
+   
+}
+.image-banner .circle-rate b{
+    position: relative;
+    left: -2.5rem;
+    top: -1.3rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.card-wrapper .release-date{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    color: white;
+}
+.card-wrapper .name{
+    text-justify: auto;
+    color: rgb(207, 174, 174);
+}

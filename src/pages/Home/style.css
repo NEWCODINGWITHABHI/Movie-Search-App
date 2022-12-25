@@ -1,0 +1,19 @@
+.home-container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 1rem 0rem;
+    background-color: black;
+}
+.home-container .home-heading h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 4rem;
+    color: white;
+}
+.card-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}

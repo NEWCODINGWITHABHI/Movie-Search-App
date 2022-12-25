@@ -1,0 +1,56 @@
+ul{
+    list-style: none;
+}
+.main-details-container{
+    display: flex;
+    flex-direction:column ;
+    padding: 3rem;
+    justify-content: center;
+    width: 100vw;
+  
+}
+.main-details-container h2{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: -1.5rem;
+
+}
+.main-details-container .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap:1rem;
+}
+.main-details-container .content-card{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items:flex-start;
+    width: 50%;
+}
+.main-details-container .content-card  li{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+.main-details-container .content-card  li .lan,.adult{
+    border: 1px solid grey;
+    padding: 0.2rem 1rem;
+}
+.main-details-container .content-card  li .card-rate{
+   border: 0.3rem solid rgb(140, 207, 38);
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.main-details-container .content-card .card-link{
+    color: greenyellow;
+}
+.you-tube-frameSec{
+    width:50%;
+    padding: 3rem;
+}
