@@ -1,15 +1,16 @@
 
 .header{
     width:100%;
-    background-color: black;
+    background-color: #00008B;
     padding: 2rem 0;
     position:sticky;
     top: 0;
     overflow-x: hidden;
     z-index: 1000;
+  
 }
 .header nav{
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -18,9 +19,10 @@
 }
 .left-nav{
     display: flex;
-    gap:6rem;
-    justify-content: flex-start;
+    gap: 5rem;
+   
     align-items: center;
+    width: 60%;
 }
 .logo-icon{
     color: white;
@@ -64,7 +66,7 @@
 }
 .right-nav input{
     padding: 1.5rem 2rem;
-    width: 40rem;
+    width: 30vw;
     border-radius: 1rem;
     font-size: 1.6rem;
     outline: none;
@@ -77,3 +79,48 @@
    /* background-color: aqua; */
 }
 
+.mobile-drawer{
+    display: none;
+}
+.drawer-wrapper{
+   
+}
+.links-all-container{
+    width: 30vw;
+    font-size: 3rem;
+    height: 100vh;
+    background-color:#08084b;
+}
+.links-all-container p{
+    color: white;
+    padding:0.5rem  1rem;
+    font-weight: bold;
+    
+    
+}
+.links-all-container a{
+text-decoration: none;
+}
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:985px){
+    html{
+        font-size: 45%;
+    }
+}
+@media (max-width:800px){
+    html{
+        font-size: 35%;
+    }
+    .left-nav li{
+        display: none;
+    }
+    .mobile-drawer{
+        display:block;
+    }
+}

@@ -1,8 +1,9 @@
 .home-container{
     width: 100%;
     min-height: 100vh;
-    padding: 1rem 0rem;
-    background-color: black;
+    padding: 1rem 2rem;
+   background-color: black;
+    overflow-x: hidden;
 }
 .home-container .home-heading h1{
     font-size: 4rem;
@@ -13,7 +14,9 @@
 .card-main-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content:space-around;
+
     align-items: center;
-    gap: 2rem;
+    gap: 20px;
 }

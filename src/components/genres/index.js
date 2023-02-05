@@ -48,7 +48,7 @@ function Genres({
   return (
     
    
-<div>
+<div style={{width:"95vw",margin:"1rem auto"}}>
 {
      selectedGenres &&  selectedGenres.map((genre)=>{
           console.log(genre.name,"name");

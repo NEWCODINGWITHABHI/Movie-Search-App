@@ -6,6 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import './style.css';
 import { useContext } from 'react';
 import { Context } from '../hooks/context/context';
+import MobileDrawer from './MobileDrawer';
 
 function Header() {
   const {searchText,setSearchText,content,setContent}=useContext(Context);
@@ -27,6 +28,11 @@ function Header() {
     <header className='header'>
         <nav>
           <div className='left-nav'>
+               <div className='mobile-drawer'
+               style={{backgroundColor:"black"}}
+               >
+               <MobileDrawer/>
+               </div>
                <div className='logo'>
                 <MovieFilterIcon className='logo-icon'/>
                 <h1>MV<span style={{color:"white"}}>&</span>TVPLAYER</h1>

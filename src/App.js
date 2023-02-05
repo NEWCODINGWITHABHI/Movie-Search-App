@@ -4,14 +4,17 @@ import RouteContainer from './Route';
 function App() {
   return (
     <>
-  
-    <div className="App" style={{backgroundColor:"black",minHeight:"100vh"}}>
-    <RouteContainer/>
-    
-    </div>
-    
+      <div
+        className="App"
+        style={{
+          backgroundColor: "white",
+          minHeight: "100vh",
+          width: "100vw",
+        }}
+      >
+        <RouteContainer />
+      </div>
     </>
-   
   );
 }
 
