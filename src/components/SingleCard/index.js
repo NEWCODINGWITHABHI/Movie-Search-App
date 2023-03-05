@@ -30,10 +30,10 @@ function SingleCardContent({ data, type }) {
         </div>
 
         <div className="title-date">
-        <div className="release-date">
-          <p className="date-title">Release Date</p>
-          <small className="rel-date">{release_date}</small>
-        </div>
+          <div className="release-date">
+            <p className="date-title">Release Date</p>
+            <small className="rel-date">{release_date}</small>
+          </div>
           <div className="name">
             <h3 className="">{title}</h3>
           </div>

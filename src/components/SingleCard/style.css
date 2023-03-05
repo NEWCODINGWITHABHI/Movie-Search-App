@@ -51,21 +51,30 @@
 }
 .image-banner .circle-rate{
     position:absolute;
-    top:-0.5rem;
-    right:-1.2rem;
+    top:0rem;
+    right:0rem;
+    width: 4rem;
+    height: 4rem;
+    
 }
 .image-banner .circle-rate .rating-icon{
-    font-size: 3.9rem ;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    width: 4rem;
+    height: 4rem;
     color: rgb(16, 246, 146);
     border-radius: 50%;
     background-color: black;
- 
-  
+    
+    
 }
 .image-banner .circle-rate b{
-    position: relative;
-    left: -2.5rem;
-    top: -1.3rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     font-size: 2rem;
     color: rgb(251, 251, 251);
    
