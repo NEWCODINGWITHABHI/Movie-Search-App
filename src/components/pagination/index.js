@@ -12,30 +12,31 @@ function PaginationComponent({paginationno,handleClick}) {
   //   setPageno(value);
   // }
   return (
-    <div className='pagination-container'>
-      <Pagination className='page'
-       sx={{
-          margin:"3rem",
+    <div className="pagination-container">
+      <Pagination
+        className="page"
+        sx={{
+          margin: "3rem",
           color: "primary",
           "& .Mui-selected , .Mui-selected:hover": {
             backgroundColor: "primary",
             color: "red",
-            borderColor: "blue !important",
-            
-    
+            borderColor: "#1E90FF !important",
           },
           "& .MuiPaginationItem-ellipsis": {
             border: "grey",
           },
           "& .MuiPaginationItem-text": {
             color: "white",
+            fontSize: "15px",
             border: "1px solid grey",
           },
         }}
-       count={paginationno}  onChange={(event,value)=>handleClick(event,value)} />
-      
+        count={paginationno}
+        onChange={(event, value) => handleClick(event, value)}
+      />
     </div>
-  )
+  );
 }
 
 export default PaginationComponent;
